@@ -1,0 +1,276 @@
+body {
+  margin: 0;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+.header {
+  height: 180px;
+  padding-top: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 150px;
+  margin-bottom: 44px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navItem {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.cover {
+  height: 680px;
+  background-image: url("./assets/cover.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-decoration-line: underline;
+  color: #f8f4f0;
+  text-transform: uppercase;
+}
+
+.bestsellersSection {
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bestsellersTitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  padding-top: 88px;
+  margin-bottom: 84px;
+  text-transform: uppercase;
+}
+
+.bestsellersRow {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.bestsellerItem {
+  margin-left: 70px;
+  margin-right: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bestsellerCard {
+  width: 305px;
+  height: 407px;
+  background: #f8f4f0;
+  border-radius: 20px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.bestsellerChip {
+  width: 60px;
+  height: 20px;
+  background: #bc4c2a;
+  border-radius: 30px;
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13px;
+  color: #ffffff;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bestsellerImage {
+  width: 260px;
+}
+
+.bestsellerItemName {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 8px;
+}
+
+.bestsellerItemPrice {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 29px;
+  color: #bc4c2a;
+}
+
+.bestsellersButton {
+  width: 240px;
+  height: 60px;
+  background: #ffffff;
+  border: 1px solid #bc4c2a;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  color: #bc4c2a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.highlightRow {
+  height: 700px;
+  display: flex;
+}
+
+.highlightItem {
+  flex-basis: 50%;
+  background: #f8f4f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.highlightImage {
+  width: 380px;
+  margin-bottom: 20px;
+}
+
+.highlightItemName {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.highlightItemPrice {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #bc4c2a;
+  text-align: center;
+}
+
+.decoration {
+  flex-basis: 50%;
+  height: 100%;
+  background-size: cover;
+}
+
+.decorationCupcake {
+  background-image: url("./assets/cupcake.png");
+}
+
+.decorationCake {
+  background-image: url("./assets/cake.png");
+}
+
+.perksSection {
+  height: 500px;
+  padding-left: 75px;
+  padding-right: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.perk {
+  width: 530px;
+  height: 380px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.perkImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.perkFilter {
+  background: rgba(132, 127, 125, 0.5);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.perkTitle {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  position: absolute;
+  color: #ffffff;
+}
+
+.footer {
+  height: 400px;
+  background: #f8f4f0;
+  padding-top: 170px;
+  text-align: center;
+}
+
+.footerTitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  margin-bottom: 12px;
+}
+
+.instagramHandle {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 44px;
+  color: #bc4c2a;
+}
